@@ -1,0 +1,38 @@
+@import url("https://fonts.googleapis.com/css2?family=Anton+SC&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Tiny5&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Anton+SC&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Kode+Mono:wght@400..700&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Tiny5&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.clock {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  justify-items: center;
+  background-image: url(/img/bg.jpg);
+  background-repeat: no-repeat;
+  width: 1990px;
+  height: 500px;
+  position: relative;
+}
+
+.time {
+  font-family: "Kode Mono";
+  font-size: 16px;
+  position: absolute;
+  left: 25.5%;
+  top: 8%;
+  color: lightgray;
+  transform: skewY(-10deg);
+  width: 200px;
+  height: 200px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-shadow: -5px 6px 4px rgba(207, 207, 207, 0.49);
+}
+.time span {
+  opacity: 0.7;
+}/*# sourceMappingURL=main.css.map */
